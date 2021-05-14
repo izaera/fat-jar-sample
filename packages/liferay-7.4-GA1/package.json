@@ -4,8 +4,11 @@
 	"name": "liferay-7.4-GA1",
 	"version": "1.0.0",
 	"dependencies": {
+		"babel-preset-env": "1.7.0",
 		"babel-preset-liferay-standard": "2.24.3",
+		"babel-preset-react": "6.24.1",
 		"liferay-npm-bundler-loader-copy-loader": "2.24.3",
+		"liferay-npm-bundler-loader-babel-loader": "2.24.3",
 		"liferay-npm-bundler-plugin-exclude-imports": "2.24.3",
 		"liferay-npm-bundler-plugin-inject-imports-dependencies": "2.24.3",
 		"liferay-npm-bundler-plugin-inject-peer-dependencies": "2.24.3",

@@ -44,7 +44,21 @@
 					"loader": "copy-loader"
 				}
 			]
+		},
+		{
+			"description": "Transpile .js files with Babel",
+			"test": "^src/.*\\.js$",
+			"exclude": "node_modules",
+			"use": [
+				{
+					"loader": "babel-loader",
+					"options": {
+						"presets": ["env", "react"]
+					}
+				}
+			]
+
 		}
 	],
-	"sources": ["assets"]
+	"sources": ["assets", "src"]
 }
