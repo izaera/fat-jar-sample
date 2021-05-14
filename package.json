@@ -1,0 +1,10 @@
+{
+  "name": "fat-jar-poc",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "dependencies": {}
+}
