@@ -5,6 +5,7 @@
 	"version": "1.0.0",
 	"dependencies": {
 		"babel-preset-liferay-standard": "2.24.3",
+		"liferay-npm-bundler-loader-copy-loader": "2.24.3",
 		"liferay-npm-bundler-plugin-exclude-imports": "2.24.3",
 		"liferay-npm-bundler-plugin-inject-imports-dependencies": "2.24.3",
 		"liferay-npm-bundler-plugin-inject-peer-dependencies": "2.24.3",

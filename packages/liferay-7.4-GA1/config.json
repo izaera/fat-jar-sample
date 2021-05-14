@@ -34,5 +34,17 @@
 			"localization": "features/localization/Language",
 			"configuration": "features/configuration.json"
 		}
-	}
+	},
+	"rules": [
+		{
+			"description": "Copy static assets",
+			"test": "^assets/.*",
+			"use": [
+				{
+					"loader": "copy-loader"
+				}
+			]
+		}
+	],
+	"sources": ["assets"]
 }

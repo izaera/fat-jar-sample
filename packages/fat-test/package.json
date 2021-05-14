@@ -12,8 +12,7 @@
 		"liferay-7.4-GA1": "^1.0.0"
 	},
 	"scripts": {
-		"build": "babel --source-maps -d build src && npm run copy-assets && liferay-npm-bundler",
-		"copy-assets": "lnbs-copy-assets",
+		"build": "babel --source-maps -d build src && liferay-npm-bundler",
 		"translate": "lnbs-translate",
 		"deploy": "npm run build && lnbs-deploy"
 	},
