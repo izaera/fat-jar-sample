@@ -1,4 +1,3 @@
 {
-	"preset": "liferay-7.4-GA1",
-	"dump-report": true
+	"preset": "liferay-7.4-GA1"
 }
