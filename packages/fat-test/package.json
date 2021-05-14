@@ -12,7 +12,8 @@
 		"@babel/preset-env": "^7.7.6",
 		"@babel/preset-react": "^7.7.4",
 		"liferay-npm-build-support": "^2.24.3",
-		"liferay-npm-bundler": "^2.24.3"
+		"liferay-npm-bundler": "^2.24.3",
+		"liferay-7.4-GA1": "^1.0.0"
 	},
 	"dependencies": {
 		"react": "16.8.6",

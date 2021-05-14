@@ -1,5 +1,5 @@
 {
-	"preset": "liferay-npm-bundler-preset-fat",
+	"preset": "liferay-7.4-GA1",
 	"create-jar": {
 		"output-dir": "dist",
 		"features": {
