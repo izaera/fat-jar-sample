@@ -15,10 +15,6 @@
 		"liferay-npm-bundler": "^2.24.3",
 		"liferay-7.4-GA1": "^1.0.0"
 	},
-	"dependencies": {
-		"react": "16.8.6",
-		"react-dom": "16.8.6"
-	},
 	"scripts": {
 		"build": "babel --source-maps -d build src && npm run copy-assets && liferay-npm-bundler",
 		"copy-assets": "lnbs-copy-assets",

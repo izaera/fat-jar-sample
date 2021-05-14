@@ -18,6 +18,14 @@
 			"inject-peer-dependencies"
 		]
 	},
+	"config": {
+		"imports": {
+			"@liferay/frontend-js-react-web": {
+				"react": "*",
+				"react-dom": "*"
+			}
+		}
+	},
 	"create-jar": {
 		"output-dir": "dist",
 		"features": {
