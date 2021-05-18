@@ -1,3 +1,12 @@
 {
-	"preset": "liferay-7.4-GA1"
+	"preset": "@liferay/portal-7.4-ga1",
+	"create-jar": {
+		"output-dir": "dist",
+		"features": {
+			"js-extender": true,
+			"web-context": "/fat-test",
+			"localization": "features/localization/Language",
+			"configuration": "features/configuration.json"
+		}
+	}
 }

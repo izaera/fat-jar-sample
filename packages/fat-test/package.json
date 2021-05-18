@@ -3,11 +3,10 @@
 	"version": "1.0.0",
 	"description": "Fat Test",
 	"devDependencies": {
-		"liferay-npm-bundler": "^2.24.3",
-		"liferay-7.4-GA1": "^1.0.0"
+		"@liferay/portal-7.4-ga1": "^1.0.0"
 	},
 	"scripts": {
-		"build": "liferay-npm-bundler"
+		"build": "liferay-platform-scripts build"
 	},
 	"portlet": {
 		"com.liferay.portlet.display-category": "category.sample",
