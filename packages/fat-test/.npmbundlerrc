@@ -1,5 +1,4 @@
 {
-	"preset": "@liferay/portal-7.4-ga1",
 	"create-jar": {
 		"output-dir": "dist",
 		"features": {
