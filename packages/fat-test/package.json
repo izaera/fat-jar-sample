@@ -6,7 +6,7 @@
 		"@liferay/portal-7.4-ga1": "^1.0.0"
 	},
 	"scripts": {
-		"build": "liferay-platform-scripts build"
+		"build": "liferay build"
 	},
 	"portlet": {
 		"com.liferay.portlet.display-category": "category.sample",
