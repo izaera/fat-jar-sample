@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/liferay/liferay-frontend-projects/master/maintenance/projects/js-toolkit/resources/schemas/configuration.schema.json",
+  "system": {
+    "category": "my-app",
+    "name": "my-app",
+    "fields": {
+      "fruit": {
+        "name": "fruit",
+        "description": "fruit-help",
+        "required": false,
+        "default": "orange",
+        "options": {
+          "orange": "an-orange",
+          "pear": "a-pear",
+          "apple": "an-apple"
+        },
+        "type": "string"
+      }
+    }
+  },
+  "portletInstance": {
+    "fields": {
+      "drink": {
+        "name": "drink",
+        "description": "drink-help",
+        "required": false,
+        "default": "water",
+        "options": {
+          "coffee": "coffee",
+          "tea": "tea",
+          "water": "water"
+        },
+        "type": "string"
+      }
+    }
+  }
+}
